@@ -1,16 +1,15 @@
 #include "main.h"
-
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ *_isdigit - function to check for digit
+ *@c: integer
+ *Return: a
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
+int a = 0;
 
-	else
-		return (0);
+if (c >= 48 && c <= 57)
+a = 1;
+return (a);
 }
